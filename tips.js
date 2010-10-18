@@ -1,6 +1,15 @@
 var tips = [];
 
 tips.push({
+	author: 'Brajeshwar',
+	message: 'Working with the designer, who uses the ultimate tool <em>Frontpage</em>',
+	example: [
+		'<meta name="GENERATOR" content="Microsoft Frontpage 6.0"',
+		'<meta name="ProgId" content="Frontpage.Editor.Document"'
+	]
+});
+
+tips.push({
 	author: 'bentruyman',
 	message: 'Using <em>Really</em> Long Explicit Ids',
 	example: [

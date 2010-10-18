@@ -1,6 +1,38 @@
 var tips = [];
 
 tips.push({
+	author: 'kentbrew',
+	message: 'Maximizing font size and density (especially for mobile devices) with nested <em>H1</em>, <em>H2</em>, and <em>B</em> tags',
+	example: [
+		'<h1><b>Chapter One</b></h1>',
+                '<h2><b>I am Nailed to the Hull</b></h2>'
+	]
+})
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Formatting vertical whitespace with unclosed <em>P</em> tags',
+	example: [
+		'<img src="foo.jpg" />',
+                '<p>',
+		'<img src="bar.jpg" />',
+                '<p>'
+	]
+})
+
+tips.push({
+	author: 'kentbrew',
+	message: 'Saving bandwidth with unclosed <em>LI</em> tags',
+	example: [
+		'<ul>',
+                '   <li>cat',
+		'   <li>dog',
+                '   <li>elephant'
+                '</ul>'
+	]
+})
+
+tips.push({
 	author: 'bentruyman',
 	message: 'Using <em>Really</em> Long Explicit Ids',
 	example: [

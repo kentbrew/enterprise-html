@@ -2,6 +2,33 @@ var tips = [];
 
 tips.push({
 	author: 'kentbrew',
+	message: 'Bullet-proof <em>rounded corners</em> that work all the way down to Netscape 4.79',
+	example: [
+		'<table>',
+                '   <tr>',
+                '      <td width="50"><img src="top-left.gif" height="50" width="50"></img></td>',
+                '      <td height="50" bgcolor="#000000">',
+                '      <td width="50"><img src="top-right.gif" height="50" width="50"></img></td>',
+                '   </tr>',
+                '   <tr>',
+                '      <td width="50" bgcolor="#000000"></td>',
+                '      <td bgcolor="#000000">',
+                '         <h3 color="#ffff00">See?  Rounded Corners are Easy!  And Awesome!</h3>',
+                '      </td>',
+                '      <td width="50" bgcolor="#000000"></td>',
+                '   </tr>',
+                '   <tr>',
+                '      <td width="50"><img src="bottom-left.gif" height="50" width="50"></img></td>',
+                '      <td height="50" bgcolor="#000000">',
+                '      <td width="50"><img src="bottom-right.gif" height="50" width="50"></img></td>',
+                '   </tr>',
+                '</table>' 
+        ]
+});
+
+
+tips.push({
+	author: 'kentbrew',
 	message: 'Choosing just the right <em>meta</em> keywords',
 	example: [
 		'<!doctype html>',

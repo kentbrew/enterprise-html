@@ -2,6 +2,19 @@ var tips = [];
 
 tips.push({
 	author: 'kentbrew',
+	message: 'Choosing just the right <em>meta</em> keywords',
+	example: [
+		'<!doctype html>',
+                '<html>',
+                '<head>',
+                '   <title>Enterprise HTML - Provides proven high performance, enterprise-level and scalable HTML tips and best practices.</title>',
+                '   <META NAME="KEYWORDS" CONTENT="enterprise,html,enterprise html,megan,fox,megan fox,megan fox naked,megan fox naked sexy,megan fox naked sexy striptease,megan fox naked sexy striptease sextape,megan fox naked sexy striptease sextape enterprise,megan fox naked sexy striptease sextape enterprise html">',
+                '</head>'
+	]
+})
+
+tips.push({
+	author: 'kentbrew',
 	message: 'Maximizing font size and density (especially for mobile devices) with nested <em>H1</em>, <em>H2</em>, and <em>B</em> tags',
 	example: [
 		'<h1><b>Chapter One</b></h1>',

@@ -1,15 +1,6 @@
 var tips = [];
 
 tips.push({
-	author: 'Brajeshwar',
-	message: 'Working with the designer, who uses the ultimate tool <em>Frontpage</em>',
-	example: [
-		'<meta name="GENERATOR" content="Microsoft Frontpage 6.0"',
-		'<meta name="ProgId" content="Frontpage.Editor.Document"'
-	]
-});
-
-tips.push({
 	author: 'bentruyman',
 	message: 'Using <em>Really</em> Long Explicit Ids',
 	example: [
@@ -109,6 +100,15 @@ tips.push({
 tips.push({
 	author: 'bentruyman',
 	message: 'Using <a href="http://html6.by.ru/">HTML6</a> Like A Boss'
+});
+
+tips.push({
+	author: 'Brajeshwar',
+	message: 'Working with the designer, who uses the ultimate tool <em>Frontpage</em>',
+	example: [
+		'<meta name="GENERATOR" content="Microsoft Frontpage 6.0"',
+		'<meta name="ProgId" content="Frontpage.Editor.Document"'
+	]
 });
 
 module.exports = tips;

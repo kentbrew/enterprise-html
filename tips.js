@@ -2,6 +2,39 @@ var tips = [];
 
 tips.push({
 	author: 'kentbrew',
+	message: 'Applying every css rule to a nested <em>div</em> tag of its own, with a highly descriptive id.',
+	example: [
+		'<div id="thePageContainer">',
+                '   <div id="headerWrapperContainer">',
+                '      <div id="headerWrapperContainerMargin">',
+                '         <div id="headerWrapperContainerFancyBorder">',
+                '            <div id="headerWrapperContainerPadding">',
+                '               <div id="headerWrapperContainerLeftSideContainer">',
+                '                   <div id="headerWrapperContainerLogoContainer">',
+                '                      <img src="MilesCowperthwaite.jpg" />',
+                '                   </div>',
+                '               </div>',
+                '               <div id="headerWrapperContainerRightSideContainer">',
+                '                   <div id="headerWrapperContainerMainTitleContainer">',
+                '                      <h1>Chapter Two</h1>',
+                '                   </div>',,
+                '                   <div id="headerWrapperContainerSubTitleContainer">',
+                '                      <div id="headerWrapperContainerMainTitleContainer">',
+                '                          <h2>I am Nailed to the Hull</h2>',
+                '                      </div>',
+                '                   </div>',
+                '               </div>',
+                '               <div id="headerWrapperContainerMainTitleBottomSpacer"></div>',
+                '            </div>',
+                '         </div>',
+                '      </div>',
+                '   </div>',
+                '   <div id="bodyWrapperContainer">'  
+	]
+})
+
+tips.push({
+	author: 'kentbrew',
 	message: 'Bullet-proof <em>rounded corners</em> that work all the way down to Netscape 4.79',
 	example: [
 		'<table>',
